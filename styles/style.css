@@ -481,3 +481,13 @@ li {
 }
 
 /* ----OUR_PROJECT SECTION-END---- */
+
+/* ----FOOTER-START---- */
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ----FOOTER-END---- */
