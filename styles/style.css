@@ -344,3 +344,140 @@ li {
 }
 
 /* ----WE_ARE SECTION-END---- */
+
+/* ----OUR_PROJECT SECTION-START---- */
+
+.our_project {
+  margin: 0 auto 0 auto;
+  width: 1440px;
+  background: #0c111f;
+}
+
+.our_project--h2 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 72px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-fill-color: transparent;
+  color: #ffffff;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.our_project--h2 span {
+  color: #00796d;
+}
+
+.our_project--p {
+  padding-top: 24px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #b6b8bc;
+  margin-bottom: 56px;
+}
+
+.our_ui--ux {
+  width: 709px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+  padding: 26px;
+  background: #f3f3f3;
+  border-radius: 100px;
+  gap: 48px;
+}
+
+.our_ui--ux p {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6d7079;
+  transition: all 1s ease;
+}
+
+.our_ui--ux p:hover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  width: 150px;
+  height: 56px;
+  background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
+  border-radius: 100px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  transition: all 1s ease;
+}
+
+.our_project {
+  margin-bottom: 182px;
+}
+
+.our_project--title {
+  padding-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.our_project--title-link {
+  transition: all 1s ease;
+}
+
+.our_project--title-link:hover {
+  transition: all 1s ease;
+  width: 630px;
+  height: 755px;
+  background: #181d2a;
+  border-radius: 32px;
+}
+
+.our_project--title-link h2 {
+  cursor: pointer;
+  padding-top: 24px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.our_project--title-link p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  color: #b6b8bc;
+}
+
+.our_project--list {
+  padding-top: 159.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 75px;
+  padding: 85px;
+}
+
+.our_project--list img {
+  width: 160px;
+  height: 40px;
+  padding: auto 83px;
+  filter: brightness(1%);
+  transition: all 1s ease;
+}
+
+.our_project--list img:hover {
+  transition: all 1s ease;
+  filter: brightness(100%);
+}
+
+/* ----OUR_PROJECT SECTION-END---- */
